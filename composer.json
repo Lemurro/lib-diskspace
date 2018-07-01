@@ -1,0 +1,23 @@
+{
+  "name": "lemurro/lib-diskspace",
+  "description": "PHP-библиотека DiskSpace - проверка свободного места на диске",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitrii Shcherbakov",
+      "email": "info@bestion.ru",
+      "homepage": "http://bestion.ru",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Lemurro\\Lib\\DiskSpace\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "gabrielelana/byte-units": "^0.5"
+  }
+}
